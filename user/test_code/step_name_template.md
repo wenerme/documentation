@@ -9,12 +9,13 @@ The Step template contains:
 * Additional `<table>`  value is added if a step contains a table parameter.
 
 ###Examples
+```
 | Step Usage | Step name template|
 | --    | -- |
 | create a user| create a user |
 | create a user "prateek"| create a user < username > |
 | Verify text < file:test.txt > | Verify text < email text >|
-
+```
 
 **For Steps with tables:**
 ````
